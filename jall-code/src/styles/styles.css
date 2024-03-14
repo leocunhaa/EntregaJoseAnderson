@@ -1,0 +1,283 @@
+body {
+  color: #ffffff;
+  font-family: "Public Sans", sans-serif;
+  font-size: larger;
+  background-color: #191425;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2c3e50;
+  color: #ffffff;
+  padding: 10px;
+  position: fixed;
+  width: 100vw;
+  border-bottom: 1px solid #007bff;
+  z-index: 99;
+}
+
+.menu {
+  display: flex;
+  width: auto;
+  align-items: center;
+}
+
+.menu li a {
+  padding: 15px;
+}
+
+li a:hover {
+  background-color: #007bff;
+  color: black;
+  border-radius: 25px;
+  transform: scale(1.11);
+}
+
+.user-menu {
+  display: flex;
+  align-items: center;
+}
+
+.user-menu li a {
+  padding: 15px;
+}
+
+li {
+  padding: 20px;
+}
+
+.user-logo {
+  padding-right: 5px;
+  background-color: white;
+}
+
+hr {
+  border-color: #007bff;
+}
+
+.welcome {
+  text-align: center;
+  padding-top: 40px;
+  padding-inline: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+  padding-top: 200px;
+}
+
+.welcome p {
+  width: 100%;
+  max-width: 900px;
+}
+.sign-up {
+  background-color: #007bff;
+  color: black;
+  border-radius: 25px;
+  margin-right: 20px;
+}
+
+.courses-container {
+  padding: 10px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.courses-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.courses-logo {
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  border: 0.5px solid #ffffff;
+  border-radius: 30px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  img {
+    width: 100%;
+    border-radius: 30px 30px 0px 0px;
+    height: 150px;
+  }
+  div {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+    color: #ffffff;
+    border-radius: 0px 0px 30px 30px;
+  }
+  p {
+    font-size: medium;
+    text-align: left;
+    height: 200px;
+  }
+
+  li {
+    font-size: medium;
+  }
+}
+.courses-logo div {
+  border-top: 0.5px solid #ffffff;
+}
+
+.courses-logo:hover {
+  transform: scale(1.05);
+}
+
+.search {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 520px;
+  button {
+    background-color: #007bff;
+    color: #ffffff;
+    border-radius: 15px;
+    padding: 10px 15px;
+  }
+}
+
+.search-options {
+  display: flex;
+  align-items: center;
+}
+
+.search-options select,
+.search-options input {
+  margin-right: 20px;
+  border-radius: 12px;
+  padding-left: 12px;
+  border: 1px solid #282433;
+}
+
+.select-style,
+.input-options {
+  background-color: #282433;
+  color: #c4c4cc;
+  width: 200px;
+  height: 30px;
+}
+
+.search-button {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.search-button svg {
+  fill: #ffffff;
+}
+
+.search-button:hover {
+  transform: scale(1.07);
+}
+
+.contato {
+  padding: 150px;
+  text-align: center;
+  margin-bottom: 1px;
+}
+
+.logo {
+  margin-top: 1px;
+  display: flex;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.logo-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo li {
+  padding: 100px 110px;
+  white-space: nowrap;
+}
+
+.about{
+  h2{
+    padding-bottom: 25px;
+    text-align: left;
+    justify-content: left;
+    padding-left: 30px;
+  }
+  p{
+    text-align: center;
+    justify-content: center;
+  }
+  padding: 320px;
+  
+}
+
+.teste{
+  
+}
+
+.table{
+ 
+}
+
+.table-infos {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:first-child td {
+  border-top: 2px solid #000000;
+}
+
+tr:last-child td {
+  border-bottom: 2px solid #000000;
+}
+
+td:first-child {
+  border-left: 2px solid #000000;
+}
+
+td:last-child {
+  border-right: 2px solid #000000;
+}
+
+.redes{
+  padding-top: 120px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.redes-gh {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-left: 80px;
+  padding: 50px;
+}
+
+.gh-link {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+}
+
+.audio{
+  margin-top: 30px;
+}
